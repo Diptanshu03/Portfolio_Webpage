@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="icon"
+        href="https://static.vecteezy.com/system/resources/thumbnails/020/816/485/small_2x/portfolio-icon-for-your-website-mobile-presentation-and-logo-design-free-vector.jpg" type="image/icon type">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS  -->
+    <link rel="stylesheet" href="../css/Portfolio.css">
+    <!-- font-awsome -->
+    <link rel="stylesheet" href="../font awsome/fontawesome-free-6.6.0-web/fontawesome-free-6.6.0-web/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark nav">
+        <div class="container-fluid py-3">
+            <a class="navbar-brand fs-2 fw-bold" id="logo" href="#"><span style="color: orange;">My</span> Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-5">
+                    <li class="nav-item me-5"><a class="nav-link fs-5 fw-bold text-white" href="#about"><i
+                                class="bi bi-file-earmark-person"></i> About</a></li>
+                    <li class="nav-item me-5"><a class="nav-link fs-5 fw-bold text-white" href="#education"><i
+                                class="bi bi-backpack2"></i> Education</a>
+                    </li>
+                    <li class="nav-item me-5"><a class="nav-link fs-5 fw-bold text-white" href="#portfolio"><i
+                                class="bi bi-projector"></i> Project</a>
+                    </li>
+                    <li class="nav-item me-5"><a class="nav-link fs-5 fw-bold text-white" href="#contact"><i
+                                class="bi bi-person-lines-fill"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container-fluid text-start text-white mt-5">
+            <img src="../img/logo/pic.jpg" class="img-fluid float-end img me-5" alt="...">
+            <h1 class="ms-5">Welcome to My Portfolio</h1>
+            <p class="ms-5 fw-bold fs-1">Discover my projects and skills</p>
+            <a href="#portfolio" class="btn btn-primary ms-5">View Portfolio</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container text-start mt-5">
+            <h2 class="mb-4 fs-1 fw-bold head">About Me</h2>
+            <p class="fs-4">Enthusiastic and detail-oriented B.Tech graduate in Information Technology (2024) with a strong
+                foundation in Java, C, HTML, CSS, JavaScript and Object-Oriented Programming (OOP). Eager to
+                apply my skills to real-world challenges in the IT industry, leveraging my academic knowledge and
+                passion for coding to contribute to innovative projects. Highly motivated to learn and grow in a
+                dynamic environment as a fresher.</p>
+            <p>
+                <span class="fw-bold fs-4 head">My Skill Sets</span>
+                <div class="fs-5">
+                    <li>Programming Languages: Java, C </li>
+                <li>Core Java: OOP Concepts, Regular Expressions (Regex), </li>
+                <li>Data Structures: Strings, Strings Manipulation, Arrays, Linked List, Stack, Queue, Binary Search
+                    Tree </li>
+                <li>Algorithms: Sorting Algorithms, String Manipulation </li>
+                <li>Web Technologies: HTML5, CSS3, JavaScript, Bootstrap, DOM Manipulation </li>
+                <li>Databases: SQL (DQL, DML, TCL, DDL,DCL commands, Functions, Operators, Concatenation, Aliasing
+                    ,Group by, Having)</li>
+                <li>Tools: Eclipse, Vscode, SQl Plus </li>
+                </div>
+            </p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="edu py-5">
+        <div class="container text-start mt-2">
+            <h2 class="mb-4 fw-bold head">Education</h2>
+            <div class="d-flex  justify-content-evenly">
+                <div class="info1">
+                    <p><span class="fw-bold">B.Tech in Information Technology(IT)</span><br>
+                        RCC INSTITUTE OF INFORMATION TECHNOLOGY <br>
+                        CGPA - <span class="fw-bold">8.54</span> <br>
+                        <span class="fw-bold">Dec 2020 - July 2024</span>
+                    </p>
+                </div>
+                <div class="info2">
+                    <p><span class="fw-bold">Higher Secondary Education</span> <br>
+                        SANTINAGAR HIGH SCHOOL (XII, WBCHSE)<br>
+                        Percentage of Marks - <span class="fw-bold">80%</span><br>
+                        <span class="fw-bold">July 2018 - June 2020</span>
+                    </p>
+                </div>
+                <div class="info3">
+                    <p><span class="fw-bold">Secondary Education</span><br>
+                        RAMKRISHNA VIVEKANANDA MISSION (X, WBBSE)<br>
+                        Percentage of Marks - <span class="fw-bold">77.85%</span><br>
+                        <span class="fw-bold">January 2017 - June 2018</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-light">
+        <div class="container-fluid">
+            <h2 class="text-center mb-4 fw-bold head">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 portfolio-item">
+                    <div class="card">
+                        <img src="../img/portfolio/Screenshot (2).png" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Spotify Clone</h5>
+                            <p class="card-text">
+                                <li>Developed a functional clone of Spotify using HTML5, CSS3, and JavaScript.</li>
+                                <li>Implemented responsive design techniques to enhance user experience across devices
+                                </li>
+                                <li>Improved JavaScript skills through hands-on project execution.</li>
+                            </p>
+                            <a href="https://github.com/Diptanshu03/SPOTIFY_CLONE_USING_HTML_CSS_JS" target="_blank"
+                                style="display:flex; justify-content: center;"
+                                class="btn bg-success text-white fw-bold ">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <div class="card">
+                        <img src="../img/portfolio/Screenshot (3).png" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Online Food Order Website</h5>
+                            <p class="card-text">
+                                <li>Developed a functional clone of Spotify using HTML5, CSS3, and JavaScript.</li>
+                                <li>Implemented responsive design techniques to enhance user experience across devices
+                                </li>
+                                <li>Improved JavaScript skills through hands-on project execution.</li>
+                            </p>
+                            <a href="https://github.com/Diptanshu03/FOODORDERING_CAFESHOP_PROJECT" target="_blank"
+                                style="display:flex; justify-content: center;"
+                                class="btn bg-success text-white fw-bold ">View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <div class="card">
+                        <img src="../img/portfolio/Screenshot 2025-01-12 140952.png" class="card-img-top"
+                            alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Food Panda Clone Website</h5>
+                            <p class="card-text">
+                                <li>Designed and developed a responsive food delivery website clone using HTML5,
+                                    CSS3,JavaScript, and Bootstrap.</li>
+                                <li>Utilized Bootstrap's grid system to ensure responsiveness across devices and
+                                    maintain a consistent design.</li>
+                            </p>
+                            <a href="https://github.com/Diptanshu03/Food_Panda_Clone" target="_blank"
+                                style="display:flex; justify-content: center;"
+                                class="btn bg-success text-white fw-bold ">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 head fw-bold">Contact Me</h2>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+        <div class="d-flex justify-content-evenly fs-1">
+            <a href="https://www.facebook.com/diptanshu.biswas.92" class="text-white" target="_blank"><i
+                    class="bi bi-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/diptanshu-biswas-b77122226/" class="text-white" target="_blank"><i
+                    class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/tanshu_69" class="text-white" target="_blank"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://www.instagram.com/dip__tanshu/" class="text-white" target="_blank"><i
+                    class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="../js/Portfolio.js"></script>
+</body>
+
+</html>
